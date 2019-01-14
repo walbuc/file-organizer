@@ -12,9 +12,9 @@ import {
   UPDATE_FILE_ERROR
 } from "./types";
 
-const BASE_URL = "http://tim.uardev.com/trial-project/api/";
-const TAGS_URL = "http://tim.uardev.com/trial-project/api/tags";
-const FILES_URL = "http://tim.uardev.com/trial-project/api/files?page=";
+const BASE_URL = "https://tim.uardev.com/trial-project/api/";
+const TAGS_URL = "https://tim.uardev.com/trial-project/api/tags";
+const FILES_URL = "https://tim.uardev.com/trial-project/api/files?page=";
 
 export const updateFile = (id, { name }, setSubmitting) => async dispatch => {
   try {
