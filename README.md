@@ -1,3 +1,22 @@
+
+
+# file organizer
+
+Project Deployed to:
+
+https://build-daklsukqrw.now.sh/
+
+Local development:
+
+Install dependencies
+```
+yarn install 
+```
+
+```
+yarn run
+``
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
