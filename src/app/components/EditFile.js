@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Formik } from "formik";
-import { Container, Segment, Grid, Form, Message } from "semantic-ui-react";
+import {
+  Container,
+  Segment,
+  Grid,
+  Form,
+  Message,
+  Button
+} from "semantic-ui-react";
 import * as actions from "app/actions";
 import { createSelector } from "reselect";
 import { Link } from "@reach/router";
@@ -71,9 +78,9 @@ const EditFile = props => (
                       </Form.Button>
                     </Grid.Column>
                     <Grid.Column width={8}>
-                      <Form.Button>
-                        <Link to={"/"}>go back</Link>
-                      </Form.Button>
+                      <Button>
+                        <Link to={"/"}>Go Back</Link>
+                      </Button>
                     </Grid.Column>
                   </Grid>
                 </Form>
