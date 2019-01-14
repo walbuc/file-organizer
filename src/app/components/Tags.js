@@ -69,9 +69,6 @@ class Tags extends Component {
 
 const mapStateToProps = state => {
   const tags = tagsSelector(state);
-  // const error = tagsErrorSelector(state);
-  // const isLoading = tagsLoadingSelector(state);
-  // console.log(tags);
   return { tags };
 };
 
